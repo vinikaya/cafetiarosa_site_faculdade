@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(48, 21, 0);
+}
+header {
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(114, 51, 0);
+}
+.infos   {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.inf {
+    width: 110px;
+    height: 30px;
+    background-color: rgb(160, 65, 2) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.logo {
+    font-size: 25px;
+    background-color: rgb(114, 51, 0);
+}
+section {
+    height: 100%;
+}
+.img_cafe1 {
+margin-top: 90px;
+width: 400px;
+border-radius: 10px 0 0 10px;
+
+}
+container1 {
+    display: flex;
+}
+.texto_img1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    background-color: rgb(31, 14, 0);
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titul {
+    font-size: 30px;
+}
+.text {
+    margin-top: 15px;
+}
+container2 {
+    margin-top: 20px;
+    
+    height: 600px;
+    display: flex;
+    background-color: rgb(31, 14, 0);
+}
+.prod{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.prod .cafe {
+    display: flex;
+    color: white;
+    height: 75px;
+    background-color: rgba(24, 12, 2, 0.705);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.prod .titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+.prod_text {
+    margin-left: 10px;
+}
+.img_exp {
+    margin-left: 30px;
+    height: 75px;
+    border-radius: 8px;
+}
+
+.local {
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 14, 0);
+}
+.loc_titulo {
+    color: white;
+    font-size: 40px;
+}
+
+.local iframe {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.contatoss {
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(31, 14, 0);
+    display: flex;
+    flex-direction: row;
+}
+.img_contato img {
+    border-radius: 15px;
+    width: 400px;
+    margin: 20px;
+}
+.cont_text {
+    color: white;
+}
+.cont_titul {
+    margin-top: 20px;
+}
